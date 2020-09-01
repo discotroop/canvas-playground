@@ -87,4 +87,8 @@ brushSize.addEventListener("change", function() {
   }
 });
 
-console.log(brushSize);
+// add straight line tool
+// add rectangle tool
+// add color gradient and softness tool
+// add custom canvas size option
+// figure out how to save the images
