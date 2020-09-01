@@ -5,13 +5,20 @@
 </head>
 
 <body>
-  <h1>Click and drag to draw</h1>
-  <div class="brushes"></div>
-  <div class="colors">
-    <div id="red">red</div>
-    <div id="blue">blue</div>
-    <div id="black">black</div>
-    <div id="white">white</div>
+  <div class="container">
+    <h2>Click and drag to draw</h2>
+    <div class="brushes">
+      Brush Size:
+      <button id="shrink-brush">-</button>
+      <input type="text" id="brush-size" />
+      <button id="grow-brush">+</button>
+    </div>
+    <div class="colors">
+      <div id="red" style="background-color: red"></div>
+      <div id="blue" style="background-color: blue"></div>
+      <div id="black" style="background-color: black"></div>
+      <div id="white" style="background-color: white"></div>
+    </div>
+    <canvas id="mycanvas" width="400" height="400"> </canvas>
   </div>
-  <canvas id="mycanvas" width="400" height="400"> </canvas>
 </body>

@@ -1,5 +1,28 @@
+.container {
+  width: 400px;
+  text-align: center;
+}
+
 #mycanvas {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.colors * {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 100px;
+  height: 30px;
+}
+
+#brush-size {
+  width: 100px;
 }
